@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 *{
     box-sizing: border-box;
     margin: 0%;
@@ -13,6 +14,7 @@ body{
     width: 100%;
     height: 100%;
     position: relative;
+    background-position: center;
 
 }
 header{
@@ -54,8 +56,8 @@ nav{
     align-items: center;
 }
 .logotipo img {
-    width: 45px;
-    height: 45px;
+    width: 50px;
+    height: 50px;
     align-items: center;
     margin-left: 0;
 }
@@ -91,7 +93,7 @@ a{
     color: black;
     margin-top: 200px;
     margin-left: 50px;
-    font-family: Teco;
+    font-family: Oswald;
     position: relative;
 }
 .camisa{
@@ -99,13 +101,111 @@ a{
     height: 40%;
     display: flex;
     align-items: center;
+    margin-left: 15%;
 }
 .camisareal{
-    width: 25px;
-    height: 40px;
+    background-image: url(assets//.camisareal);
+    width: 50%;
+    height: 50%;
+    margin-top: 15px;
     display: flex;
-    align-items: center;
+    padding: 0;
+    margin-right: 5%;
+}
+.camisareal img{
+    width: 50%;
+    height: 50%;
+    margin-top: 15px;
+    display: flex;
+    padding: 0;
 }
 
+.logotipopd{
+    background-image: url(assets//.logotipo);
+    width: 30%;
+    height: 70%;
+    align-items: center;
+}
+.logotipopd img {
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin-left: 0;
+}
+.rodape{
+    width: 100%;
+    height: 15%;
+    margin-left: 0;
+    background-color: black;
+}
+.pclogotipo{
+    background-image: url(assets//.logotipo);
+    width: 30%;
+    height: 70%;
+    align-items: center;
+}
+.pclogotipo img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin-left: 0;
+}
+.fundobranco{
+    color: white;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    margin-left: 15px;
+}
+p{
+    color: black;
+    position: absolute;
+    margin-left: 15px;
 
+}
+.text{
+    color: black;
+    position: absolute;
+    margin-left: 800px;
 
+}
+.login{
+    width: 300px;
+    height: 300px;
+    border: 1px solid #fafafa80;
+    background-color: #fafafa40;
+    border-radius: 8px;
+    padding: 24px;
+    backdrop-filter: blur (30px);
+    box-shadow: 0px 0px 8px #24242480;
+    
+}
+form{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    justify-content: center;
+}
+input[ type="text"],
+input[type="password"] {
+    width: 100%;
+    height: 32px;
+    padding: 8px;
+    border-radius: 4px;
+}
+input[type="submit"] {
+    width: 150px;
+    height: 32px;
+    border-radius: 4px;
+    border: none;
+}
+label{
+    font-size: 14px;
+
+}
+a{
+    text-decoration: none;
+}
