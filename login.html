@@ -8,40 +8,45 @@
     <link rel="stylesheet" href="css/style.CSS">
 </head>
 
-<body>
+<body id="back2">
     <header>
-        <div class="logotipo">
-            <img src="assets/logotipo.png" alt="" width="70" height="70">
-        </div>
+        <nav>
+            <div class="logotipo">
+                <img src="assets/logotipo.png" alt="" width="70" height="70">
+            </div>
+        </nav>
+        <nav>
+            <div>
+                <menu>
+                    <a href="index.html">início</a>
+                    <a href="pgdeprodutos.HTML">produtos</a>
+                    <a href="pgdeserviços.HTML">serviços</a>
+                    <a href="pgdecontatos.HTML">contato</a>
+                    <a href="login.html">login</a>
+                </menu>
+            </div>
         </nav>
     </header>
-    <menu>
-        <a href="index.html">início</a>
-        <a href="pgdeprodutos.HTML">produtos</a>
-        <a href="pgdeserviços.HTML">serviços</a>
-        <a href="pgdecontatos.HTML">contato</a>
-    </menu>
     <main>
-        <div class="login">
-            <div class="login fundo">
-                <img src="assets/fundo.jpg" alt="">
-            </div>
 
-            <form action="">
-                <input type="text" name="Nome" id="Nome" placeholder="Nome de usuário">
-                <input type="password" name="Senha" id="Senha" placeholder="Digite sua Senha">
-                <label form="Lembrar">
-          Lembrar-me conectado
-           <input type="checkbox" name="Lembrar" id="Lembrar">
-          </label>
-                <input type="submit" value="Fazer Login">
-                <a href="#">Esqueci minha senha </a>
-            </form>
-        </div>
+        <form action="" class="formlogin">
+            <input type="text" name="Nome" id="Nome" placeholder="Digite seu Usuário">
+            <input type="password" name="Senha" id="Senha" placeholder="Digite sua Senha">
+            <label for="Lembrar">
+                    <input type="checkbox" name="Lembrar" id="Lembrar">
+                    Mantenha-me Conectado
+                </label>
+            <input type="submit" value="Fazer Login">
+            <a href="# ">Esqueci minha senha </a>
+        </form>
+
+
+
+
     </main>
     <footer>
-        <div class="rodape">
-            <img src="" alt="">
+        <div class="rodape ">
+
         </div>
     </footer>
 </body>

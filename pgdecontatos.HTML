@@ -1,34 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.CSS">
 </head>
-<body>
+
+<body id="back3">
     <header>
         <nav>
             <div class="logotipo">
-              <img src="assets/logotipo.png" alt="" width="70" height="70">
-           </div> 
-         </nav>
-    <menu>
-        <a href="pgdecontatos.HTML">contato</a>
-        <a href="index.html">início</a>
-        <a href="pgdeprodutos.HTML">produtos</a>
-        <a href="pgdeserviços.HTML">serviços</a>
-        <a href="login.html">login</a>
-    </menu>
+                <img src="assets/logotipo.png" alt="" width="70" height="70">
+            </div>
+        </nav>
+        <nav>
+            <div>
+                <menu>
+                    <a href="index.html">início</a>
+                    <a href="pgdeprodutos.HTML">produtos</a>
+                    <a href="pgdeserviços.HTML">serviços</a>
+                    <a href="pgdecontatos.HTML">contato</a>
+                    <a href="login.html">login</a>
+                </menu>
+            </div>
+        </nav>
     </header>
     <main>
-        <hr>
-        
+        <div class="contatos">
+            <form class="formcontato" action="">
+                <input type="text" name="Nome" id="Nome" placeholder="Nome">
+                <input type="email" name="Email" id="Email" placeholder="Email">
+                <input type="tel" name="tel" id="tel" placeholder="Telefone">
+                <textarea name="Menssagem" id="Menssagem" placeholder="Menssagem"></textarea>
+                <input type="submit" value="Enviar">
+            </form>
+        </div>
     </main>
     <footer>
         <div class="rodape">
-            <img src="" alt="">
         </div>
     </footer>
 </body>
+
 </html>
